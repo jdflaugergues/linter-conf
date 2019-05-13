@@ -1,0 +1,27 @@
+{
+  "name": "linter-conf",
+  "version": "1.0.0",
+  "description": "Shared linter configurations",
+  "bin": {
+    "lint-branch": "bin/lint-branch.sh"
+  },
+  "author": "Jonathan de Flaugergues <jdflaugergues@gmail.com>",
+  "license": "UNLICENSED",
+  "private ": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jdflaugergues/linter-conf.git"
+  },
+  "engines": {
+    "node": "v11.14.0",
+    "npm": "6.7.0"
+  },
+  "keywords": [
+    "eslint",
+    "lint"
+  ],
+  "dependencies": {
+    "eslint": "5.16.0"
+  }
+}
